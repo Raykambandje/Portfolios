@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+body{
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(226, 226, 226, 0.712) 8%,
+     rgba(110, 128, 139, 0.747) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(184, 185, 194, 0.973) 21%,
+     rgb(127, 139, 151) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgb(192, 204, 214) 35%,
+     rgba(136, 136, 138, 0.397) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(114, 114, 133),rgb(152, 152, 167));
+   
+}
+h1, h3{
+    text-align: center;
+}
+.container{
+    background: #fffefec2;
+    max-width: 800px;
+    margin: 60px auto;
+    height: 1250px;
+    padding: 20px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+.header{
+    text-align: center;
+}
+.hearder h1{
+    margin-bottom: 10px;
+}
+.hearder h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+    border: 15px groove deepskyblue;
+}
+.image img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left{
+    flex: 1;
+    padding: 30px;
+}
+.left p{
+    line-height: 2;
+}
+.left ul li{
+    line-height: 2;
+}
+h2{
+    background: #202c2e;
+    padding: 15px;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 20px;
+    border-radius: o 50px 50px 0;
+}
+.right{
+    flex: 1;
+    padding: 30px;
+}
+.right h3{
+    margin-bottom: 15px;
+}
+.right p{
+    line-height: 2.9;
+}
+.right ul li{
+line-height: 2;
+}

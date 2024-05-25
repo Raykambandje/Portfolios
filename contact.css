@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(226, 226, 226, 0.712) 8%,
+         rgba(110, 128, 139, 0.747) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(184, 185, 194, 0.973) 21%,
+         rgb(127, 139, 151) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgb(192, 204, 214) 35%,
+         rgba(136, 136, 138, 0.397) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(114, 114, 133),rgb(152, 152, 167));
+    color: #000000;
+    font-family: 'arial';
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #032030;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+     font-size: 20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 50;
+     margin-left: 35px;
+     transition: 3s;
+     text-align: center;
+}
+h1, h2, h3 {
+    color: #004d74;
+}
+a{
+    color: #004d74;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+p{
+    line-height: 1.6;
+}
+i{
+    font-size: 1.5rem;
+    color: #253a47;
+    margin-left: 15px;
+}
+.container{
+    max-width: 1300px;
+    margin: 10px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    width: 50%;
+    float: right;
+}
+.contactFrom{
+    padding-right: 60px;
+}
+.content{
+    text-align: center;
+}
+section{
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+button{
+    background-color: #0d0d0e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+background-color: #0056b3;
+}
+#registerform{
+    width: 50%;
+    max-width: 500px;
+    margin: 10px;
+    padding: 30px;
+    padding-right: 10px;
+    background-color: #253a47;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    float: right;
+}
+.champ{
+    margin-bottom: 20px;
+    width: 30px;
+
+}
+label{
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+textarea{
+    height: 100px;
+    width: 350px;
+}
+input{
+    width: 450px;
+    height: 20px;
+    border-radius: 2%;
+}
+button [type="submit"]{
+    align-items: center;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#registerform:hover{
+    box-shadow: 0 8px 16px rgba(30, 36, 107, 0.267);
+}

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleeapis.com/css2?family=Poppins :wght@300;400;500;600;800;900&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #394a64;
+    color: #293447;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #032030;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+     font-size: 20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     margin-left: 35px;
+     transition: 3s;
+     text-align: center;
+}
+
+.accueil{
+    height: 100vh;
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(226, 226, 226, 0.712) 8%,
+     rgba(110, 128, 139, 0.747) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(184, 185, 194, 0.973) 21%,
+     rgb(127, 139, 151) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgb(192, 204, 214) 35%,
+     rgba(136, 136, 138, 0.397) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(114, 114, 133),rgb(152, 152, 167));
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10% 0;
+
+}
+.accueil-img{
+    width: 410px;
+    height: 410px;
+
+}
+.accueil-img .glowing-circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #202731;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accueil-img .glowing-circle::after{
+content: '';
+position: absolute;
+width: 380px;
+height: 380px;
+background: #081b29;
+border-radius: 50%;
+}
+.glowing-circle .image{
+    position: relative;
+    width: 380px;
+    height: 380px;
+    z-index: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image img{
+position: absolute;
+left: 50%;
+top: 0%;
+transform: translate(-50%);
+max-width: 680px;
+object-fit: cover;
+}
+.accueil-content{
+    max-width: 600px;
+}
+.accueil-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgb(13, 14, 15);
+}
+.accueil-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0e1416;
+}
+.accueil-content p{
+    font-size: 17px;
+    margin: 20px 0 40px;
+    color: #1c232cda;
+
+}
+.accueil-content .btn-box{
+    display: flex;
+    justify-content:space-between ;
+    width: 345px;
+    height: 50px;
+}
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #004d74;
+    border: 2px solid #004d74;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.btn-box a:hover{
+    color: #00abf0;
+}
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a:nth-child(2):hover{
+    color: #081b29;
+}
+.btn-box a:nth-child(2)::before{
+    background: #00abf0;
+}
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+}
+.btn-box a:hover::before {
+    width: 100%;
+}
+.accueil-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.accueil-sci a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #032030;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #032030;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+}
+.accueil-sci a:hover{
+    color: #081b29;
+}
+.accueil-sci a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+}
+.accueil-sci a:hover::before{
+    width: 100%;
+
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(147deg, transparent 0%, transparent 8%,rgba(226, 226, 226, 0.712) 8%,
+    rgba(110, 128, 139, 0.747) 46%,transparent 46%, transparent 100%),linear-gradient(107deg, transparent 0%, transparent 21%,rgba(184, 185, 194, 0.973) 21%,
+    rgb(127, 139, 151) 53%,transparent 53%, transparent 100%),linear-gradient(288deg, transparent 0%, transparent 35%,rgb(192, 204, 214) 35%,
+    rgba(136, 136, 138, 0.397) 91%,transparent 91%, transparent 100%),linear-gradient(90deg, rgb(114, 114, 133),rgb(152, 152, 167));
+   
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #032030;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+     font-size: 20px;
+     color: black;
+     text-decoration: none;
+     font-weight: 500;
+     margin-left: 35px;
+     transition: 3s;
+     text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0 0%;
+}
+.container h1{
+    text-align: center;
+    padding: 10%;
+    margin-top: 60px;
+    font-weight: 600;
+    position: relative;
+}
+
+.box{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex:30px;
+    text-align: center;
+}
+.services{
+    text-align: center;
+    padding: 25px 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+
+}
+.services h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.services:hover{
+    background: #032030;
+    color: #fff;
+    transform: scale(1.05);
+}
